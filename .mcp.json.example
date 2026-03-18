@@ -1,0 +1,44 @@
+{
+  "mcpServers": {
+    "lsp-bsl-bridge": {
+      "type": "stdio",
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "mcp-lsp-sec",
+        "mcp-lsp-bridge"
+      ],
+      "env": {}
+    },
+    "yaxunit-runner": {
+      "type": "stdio",
+      "command": "java",
+      "args": [
+        "-jar",
+        "/path/to/mcp-yaxunit-runner.jar"
+      ],
+      "env": {
+        "LOGGING_LEVEL_ROOT": "DEBUG",
+        "SPRING_CONFIG_IMPORT": "/path/to/application.yml"
+      }
+    },
+    "1c-platform": {
+      "command": "java",
+      "args": [
+        "-jar", 
+        "/path/to/mcp-bsl-context.jar", 
+        "--platform-path", 
+        "/opt/1cv8/x86_64/8.3.27.1786"
+      ]
+    },
+    "1c-copilot-proxy": {
+      "type": "http",
+      "url": "http://localhost:8000/mcp"
+    },
+    "1c-md": {
+      "type": "http",
+      "url": "http://localhost/my_database/hs/mcp"
+    }
+  }
+}

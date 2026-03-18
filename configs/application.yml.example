@@ -1,0 +1,43 @@
+app:
+  # (необязательно) Человекочитаемый идентификатор проекта
+  id: sec
+
+  # Формат проекта: DESIGNER (типовой) или EDT (структура EDT)
+  format: DESIGNER
+
+  # Абсолютный путь к корню проекта 1С на диске
+  base-path: "/path/to/mcp-yaxunit-runner"
+
+  # Описание исходников проекта (пути относительно base-path)
+  source-set:
+    - path: "src/cf"
+      name: main
+      type: "CONFIGURATION"
+      purpose: ["MAIN"]
+
+# Модуль с тестами
+    - path: "src/cfe/unit_tests"
+      name: tests
+      type: "EXTENSION"
+      purpose: [ "TESTS", "YAXUNIT" ]      
+
+  # Подключение к информационной базе
+  connection:
+    # Примеры ниже; оставьте ровно одну строку
+    connection-string: "File='/path/to/my_database';"
+    # user: "Администратор"     # (необязательно)
+    # password: "secret"        # (необязательно)
+
+  # Инструменты сборки/запуска
+  tools:
+    # DESIGNER — локальная разработка, IBCMD — CI/CD
+    builder: DESIGNER
+
+    # Настройки Enterprise (1С:Предприятие)
+    enterprise:
+      # Дополнительные ключи запуска
+      additional-launch-keys:
+        - "/TESTMANAGER"
+
+  # Версия платформы
+  platform-version: "8.3.27.1786"

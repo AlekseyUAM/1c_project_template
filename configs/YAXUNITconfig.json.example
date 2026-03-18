@@ -1,0 +1,32 @@
+{
+  "reportPath": "/path/to/my_project/log/YAXUNITreport.json",
+  "closeAfterTests": true,
+  "filter": {
+    "extensions": [
+      "unit_tests"
+    ]
+  },
+  "settings": {
+    "ВТранзакции": false
+  },
+  "reportFormat": "dumpjson",
+  "reports": [],
+  "showReport": true,
+  "logging": {
+    "file": "/path/to/my_project/log/YAXUNITlog.json",
+    "console": false,
+    "enable": null,
+    "level": "debug"
+  },
+  "exitCode": "",
+  "projectPath": "/path/to/my_project",
+  "workspacePath": "",
+  "ДымовыеТесты": false,
+  "rpc": {
+    "port": 0,
+    "enable": false,
+    "key": "",
+    "transport": "ws"
+  },
+  "ПодключатьВнешниеКомпоненты": true
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="CommonModule.Тест_КотировкаЦБ_Базовый" id="b1c2d3e4-f5a6-7890-bcde-fa1234567891" configVersion="0068ee758ff5e85695e4ec84a31c1234e7ba54f8"/>
+		<Metadata name="CommonModule.Тест_КотировкаЦБ_Базовый.Module" id="b1c2d3e4-f5a6-7890-bcde-fa1234567891.0" configVersion="6939f29708199d129fb74dc249225a4f74aec38c"/>
+		<Metadata name="CommonModule.Тест_КотировкаЦБ_Данные" id="c2d3e4f5-a6b7-8901-cdef-ab2345678902" configVersion="362478c7d4d64509d281c0857fe96d69733d4758"/>
+		<Metadata name="CommonModule.Тест_КотировкаЦБ_Данные.Module" id="c2d3e4f5-a6b7-8901-cdef-ab2345678902.0" configVersion="2b3a455cc4be149d10f12fcca7f2bd89b80258f0"/>
+		<Metadata name="CommonModule.Тест_НачислениеНКД" id="b2b3b4b5-c6c7-4d8d-9e9e-0f0f1a1a2b2b" configVersion="e3d1d1f8042c98585aae0cda7a55ae8fd29ad345"/>
+		<Metadata name="CommonModule.Тест_НачислениеНКД.Module" id="b2b3b4b5-c6c7-4d8d-9e9e-0f0f1a1a2b2b.0" configVersion="4df44658417d0965ce40a2c024403165638266bc"/>
+		<Metadata name="CommonModule.Тест_ПереоценкаЦБ" id="a1a2a3a4-b5b6-4c7c-8d8d-9e9e0f0f1a1a" configVersion="34b14f1f9ff9a840b45a1c0a9f0791e923fedfa3"/>
+		<Metadata name="CommonModule.Тест_ПереоценкаЦБ.Module" id="a1a2a3a4-b5b6-4c7c-8d8d-9e9e0f0f1a1a.0" configVersion="007d5ec315dec946f819e403252acc3aaecec6a9"/>
+		<Metadata name="CommonModule.Тест_ПогашениеКупонов" id="c3c4c5c6-d7d8-4e9e-0f0f-1a1a2b2b3c3c" configVersion="a03fb28189d8af9572cb1e7f24312b7a2f9ea909"/>
+		<Metadata name="CommonModule.Тест_ПогашениеКупонов.Module" id="c3c4c5c6-d7d8-4e9e-0f0f-1a1a2b2b3c3c.0" configVersion="649cceac9f40e7801c3d0eeb1efb82cac91801a4"/>
+		<Metadata name="CommonModule.Тест_ПоступлениеВыбытиеЦБ" id="d1a2b3c4-e5f6-4789-abcd-ef1234567891" configVersion="2fd63ca7e3b207bae02b4e0b20058b30e68f32b3"/>
+		<Metadata name="CommonModule.Тест_ПоступлениеВыбытиеЦБ.Module" id="d1a2b3c4-e5f6-4789-abcd-ef1234567891.0" configVersion="656aa50925f4e24526caea7649101d81a4be27f3"/>
+		<Metadata name="CommonModule.Тест_РаботаСКотировкамиЦБ" id="a1b2c3d4-e5f6-7890-abcd-ef1234567890" configVersion="b5601a5ac80588a0b436cdacfad6524424f75bde"/>
+		<Metadata name="CommonModule.Тест_РаботаСКотировкамиЦБ.Module" id="a1b2c3d4-e5f6-7890-abcd-ef1234567890.0" configVersion="8fb576613888775ed4d05cac2a6998d6dd85a558"/>
+		<Metadata name="CommonModule.Тест_СтоимостьЦБ_Базовый" id="f5a6b7c8-d9e0-1234-f012-de5678901235" configVersion="7f4628d77fdc8757c69489d269632fc56109ae9f"/>
+		<Metadata name="CommonModule.Тест_СтоимостьЦБ_Базовый.Module" id="f5a6b7c8-d9e0-1234-f012-de5678901235.0" configVersion="7efa31936b698e1915168f9a344d9d59950f3ad7"/>
+		<Metadata name="CommonModule.Тест_СтоимостьЦБ_Данные" id="a6b7c8d9-e0f1-2345-0123-ef6789012346" configVersion="a0316e0013dacb458e27611bcbc0c7fb07b16292"/>
+		<Metadata name="CommonModule.Тест_СтоимостьЦБ_Данные.Module" id="a6b7c8d9-e0f1-2345-0123-ef6789012346.0" configVersion="75b44cf360484214bc650a706f7b9c1b3f29331e"/>
+		<Metadata name="CommonModule.Тест_ФинансовыйРезультат_Базовый" id="d3e4f5a6-b7c8-9012-def0-bc3456789013" configVersion="5805ac44d9d32a96f45446792079f8f8127e11f2"/>
+		<Metadata name="CommonModule.Тест_ФинансовыйРезультат_Базовый.Module" id="d3e4f5a6-b7c8-9012-def0-bc3456789013.0" configVersion="cb35ee1465041e413e02fc1436b5f545e45311e2"/>
+		<Metadata name="CommonModule.Тест_ФинансовыйРезультат_Данные" id="e4f5a6b7-c8d9-0123-ef01-cd4567890124" configVersion="f6f369d0b05e41386d0f6f2b3074e99e9bbbace9"/>
+		<Metadata name="CommonModule.Тест_ФинансовыйРезультат_Данные.Module" id="e4f5a6b7-c8d9-0123-ef01-cd4567890124.0" configVersion="a2b9d1f66eb5ceabd351b4dc5e03d331471e5c46"/>
+		<Metadata name="CommonModule.ЮТ_ЦенныеБумагиСервер" id="e7948f59-a5db-4a34-8329-4441af681b7a" configVersion="df0d55ed05bc0e37dc7454f607e91ed078de2c5f"/>
+		<Metadata name="CommonModule.ЮТ_ЦенныеБумагиСервер.Module" id="e7948f59-a5db-4a34-8329-4441af681b7a.0" configVersion="3294730173dcf4e757838db3e7bf4a338c4ad4da"/>
+		<Metadata name="Configuration.unit_tests" id="b6af07cb-72d9-46f8-9696-12d903cd0087" configVersion="eb62602b5d328ea3b9597de01d7f7d1f09bcfdbd"/>
+		<Metadata name="Language.Русский" id="7ed2cd28-320f-45fb-95d8-6f009a609c1b" configVersion="304f2fa50a99fe8578cd7343e74134cd371cdb5d"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
